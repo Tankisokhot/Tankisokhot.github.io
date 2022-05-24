@@ -1,0 +1,192 @@
+body {
+    background-color: white;
+    width: 1000px;
+    margin-top: 0px;
+    animation-name: kay;
+    animation-duration: 10s;
+    animation-delay: 15s;
+  }
+  .box-1 {
+    background-color: white;
+    height: 360px;
+    width: 1400px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    animation-name: teee;
+    animation-duration: 10s;
+    animation-delay: 15s;
+  
+  }
+  .box-1 img {
+    height: 360px;
+    width: 300px;
+    float: top;
+    border-radius: 10px;
+    opacity: 0.4;
+  }
+  .box-1 img:hover {
+    opacity: 1;
+  }
+  .box-1 section {
+    display: inline-flex;
+  }
+  .box-1 h1 {
+    margin: 20px;
+    color: black;
+  }
+  .box-1 button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: gold;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  button {
+    display: flex-box;
+    margin-right: 50px;
+    background-color: gold;
+    border-radius: 10px;
+    float: right;
+  }
+  button:hover {
+    opacity: 0.3;
+  }
+  .box-2 img {
+    display: inline-flex;
+    margin-right: 5px;
+    height: 240px;
+    width: 400px;
+    display: inline-flex;
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+  .box-2 img:hover {
+    background-color: white;
+    height: 250px;
+    width: 410px;
+  }
+  .box-2 {
+    background-color: aliceblue;
+    height: 400px;
+    width: 1400px;
+    animation-name: teee;
+    animation-duration: 10s;
+    animation-delay: 15s;
+  }
+  .box-3 {
+    background-color: white;
+    height: 530px;
+    width: 1400px;
+    animation-name: teee;
+    animation-duration: 10s;
+    animation-delay: 15s;
+  }
+  .box-3 img {
+    display: inline-flex;
+    width: 400px;
+    height: 220px;
+    margin: 5px;
+  }
+  .box-4 {
+    background-color: aliceblue;
+    height: 170px;
+    width: 1400px;
+  }
+  .box-4 button {
+    float: right;
+  }
+  .box-5 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 635px;
+    border-radius: 75px;
+  
+  }
+  .box-5 {
+    background-color:floralwhite;
+    height: 350px;
+    width: 1400px;
+    margin-bottom: 15px;
+    animation-name: teee;
+    animation-duration: 10S;
+    animation-delay: 15s;
+
+
+  }
+  .box-5 img:hover{
+    opacity: 0.5;
+  }
+  .box-5 p {
+    margin-left: 100px;
+    color: black;
+  }
+  .box-4 p {
+    margin-left: 100px;
+  }
+  .box-4 h2 {
+    margin-left: 100px;
+  }
+  .container {
+    margin-bottom: 0px;
+  }
+  
+  .box-1 button {
+    size: 20%;
+  }
+  .teee {
+    height: 170px;
+    width: 1400px;
+    background-color: aliceblue;
+  }
+  .teee img {
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 100px;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+  .box-3 img:hover {
+    opacity: 0.5;
+    color: red;
+  }
+  .teee p {
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
+  .teee section {
+    display: inline-flex;
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+    margin-left: 150px;
+  }
+  .teee img:hover {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+  }
+  @keyframes teee {
+    
+     
+  30% {
+      background-color: greenyellow;
+    }
+    50% {
+      background-color: darkturquoise;
+    }
+  }
+    
+  
+  @keyframes kay {
+    100% {
+      background-image: url("bg3.webp");
+    }
+  }
+  
